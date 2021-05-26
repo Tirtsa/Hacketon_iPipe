@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 26 20:25:07 2021
+
+@author: User
+"""
+
 import cv2
 import time
 import os
@@ -46,6 +53,6 @@ def video_to_frames(input_loc, output_loc):
 
 if __name__=="__main__":
 
-    input_loc = '/path/to/video/00009.MTS'
-    output_loc = '/path/to/output/frames/'
+    input_loc = '/content/2019-03-19_Trim.mp4'
+    output_loc = '/content/output'
     video_to_frames(input_loc, output_loc)
